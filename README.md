@@ -7,7 +7,7 @@ How to Use
 Run the Program:
 Execute the program in your preferred Python environment.
 Enter a List of Numbers:
-You will be prompted to input a list of numbers separated by spaces.
+You will be prompted to input a list of numbers separated by spaces. Any non-numeric entries will result in an error message and the program will exit.
 View the Results:
 The program will display the maximum and minimum values in the entered list.
 Notes
