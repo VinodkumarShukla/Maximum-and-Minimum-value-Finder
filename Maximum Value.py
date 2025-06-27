@@ -2,7 +2,11 @@
 numbers_str = input("Enter a list of numbers separated by spaces: ")
 
 # Convert the input string to a list of numbers
-numbers = [float(num) for num in numbers_str.split()]
+try:
+    numbers = [float(num) for num in numbers_str.split()]
+except ValueError:
+    print("Invalid input. Please enter only numbers separated by spaces.")
+    exit(1)
 
 # Check if the list is not empty
 if not numbers:
